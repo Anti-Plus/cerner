@@ -5,9 +5,9 @@ utf8 = dofile('./bot/utf8.lua')
 json = dofile('./libs/JSON.lua')
 https = require "ssl.https"
 CerNerCompany = '`اختصاصی  کمپانی کرنر `'
-SUDO_ID = {363936960,280061509}
-Full_Sudo = {363936960,280061509}
-ChannelLogs= -1001112806544
+SUDO_ID = {439620509}
+Full_Sudo = {439620509}
+ChannelLogs= -1001147854363
 MsgTime = os.time() - 60
 Plan1 = 2592000
 Plan2 = 7776000
@@ -3186,7 +3186,7 @@ sendText(msg.chat_id, msg.id, txts, 'md')
 end
 if cerner == 'help' then
 if is_sudo(msg) then
-text =[[ •• راهنمای کار با کرنر برای مقام صاحب ربات
+text =[[ •• راهنمای کار با مگا برای مقام صاحب ربات
 
 • setsudo [user]
 > تنظیم کاربر به عنوان کمک مدیر ربات
